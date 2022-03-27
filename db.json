@@ -3,17 +3,109 @@
     {
       "id": 1,
       "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "director": "Peter Jackson"
+      "director": "Peter Jackson",
+      "screenplay": ["Fran Walsh", "Philippa Boyens", "Peter Jackson"],
+      "producers": [
+        "Barrie M. Osborne",
+        "Peter Jackson",
+        "Fran Walsh",
+        "Tim Sanders"
+      ],
+      "starring": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Liv Tyler",
+        "Viggo Mortensen",
+        "Sean Astin",
+        "Cate Blanchett",
+        "John Rhys-Davies",
+        "Billy Boyd",
+        "Dominic Monaghan",
+        "Orlando Bloom",
+        "Christopher Lee",
+        "Hugo Weaving",
+        "Sean Bean",
+        "Ian Holm",
+        "Andy Serkis"
+      ],
+      "music": "Howard Shore",
+      "release": 2001,
+      "runtime": 178,
+      "language": "English",
+      "budget": "$93 million",
+      "boxoffice": "$897.7 million"
     },
     {
       "id": 2,
       "title": "The Lord of the Rings: The Two Towers",
-      "director": "Peter Jackson"
+      "director": "Peter Jackson",
+      "screenplay": [
+        "Fran Walsh",
+        "Philippa Boyens",
+        "Peter Jackson",
+        "Stephen Sinclair"
+      ],
+      "producers": ["Barrie M. Osborne", "Peter Jackson", "Fran Walsh"],
+      "starring": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Liv Tyler",
+        "Viggo Mortensen",
+        "Sean Astin",
+        "Cate Blanchett",
+        "John Rhys-Davies",
+        "Bernard Hill",
+        "Christopher Lee",
+        "Billy Boyd",
+        "Dominic Monaghan",
+        "Orlando Bloom",
+        "Hugo Weaving",
+        "Miranda Otto",
+        "David Wenham",
+        "Brad Dourif",
+        "Karl Urban",
+        "Andy Serkis"
+      ],
+      "music": "Howard Shore",
+      "release": 2002,
+      "runtime": 179,
+      "language": "English",
+      "budget": "$94 million",
+      "boxoffice": "$947.5 million"
     },
     {
       "id": 3,
       "title": "The Lord of the Rings: The Return of the King",
-      "director": "Peter Jackson"
+      "director": "Peter Jackson",
+      "screenplay": ["Fran Walsh", "Philippa Boyens", "Peter Jackson"],
+      "producers": ["Barrie M. Osborne", "Peter Jackson", "Fran Walsh"],
+      "starring": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Liv Tyler",
+        "Viggo Mortensen",
+        "Sean Astin",
+        "Cate Blanchett",
+        "John Rhys-Davies",
+        "Bernard Hill",
+        "Billy Boyd",
+        "Dominic Monaghan",
+        "Orlando Bloom",
+        "Hugo Weaving",
+        "Miranda Otto",
+        "David Wenham",
+        "Karl Urban",
+        "John Noble",
+        "Andy Serkis",
+        "Ian Holm",
+        "Sean Bean"
+      ],
+      "music": "Howard Shore",
+      "release": 2003,
+      "runtime": 201,
+      "language": "English",
+      "budget": "$94 million",
+      "boxoffice": "$1.146 billion"
     }
   ]
 }

@@ -1,8 +1,9 @@
 <template>
-  <p>---</p>
-  <p>{{ movie.id }}</p>
   <h3>{{ movie.title }}</h3>
-  <p>{{ movie.director }}</p>
+  <p>Starring:</p>
+  <span v-for="(actor, index) in movie.starring.slice(0, 3)" :key="index">
+    {{ actor }}<span v-if="index != 2">, </span>
+  </span>
 </template>
 
 <script>
