@@ -8,6 +8,7 @@
 
 <script>
 import MovieCard from "@/components/MovieCard.vue";
+
 export default {
   name: "HomeView",
   components: { MovieCard },
@@ -15,6 +16,9 @@ export default {
     movies() {
       return this.$store.state.movies;
     },
+  },
+  mounted() {
+    this.$store.dispatch("fetchMovies");
   },
 };
 </script>

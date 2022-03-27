@@ -1,24 +1,26 @@
+import MovieService from "@/services/MovieService";
 import { createStore } from "vuex";
 
 export default createStore({
   state: {
-    movies: [
-      {
-        id: 1,
-        title: "The Lord of the Rings: The Fellowship of the Ring",
-      },
-      {
-        id: 2,
-        title: "The Lord of the Rings: The Two Towers",
-      },
-      {
-        id: 3,
-        title: "The Lord of the Rings: The Return of the King",
-      },
-    ],
+    movies: [],
   },
   getters: {},
-  mutations: {},
-  actions: {},
+  mutations: {
+    SET_MOVIES(state, movies) {
+      state.movies = movies;
+    },
+  },
+  actions: {
+    fetchMovies({ commit }) {
+      return MovieService.getMovies()
+        .then((response) => {
+          commit("SET_MOVIES", response.data);
+        })
+        .catch((error) => {
+          throw error;
+        });
+    },
+  },
   modules: {},
 });

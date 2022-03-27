@@ -1,0 +1,19 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "director": "Peter Jackson"
+    },
+    {
+      "id": 2,
+      "title": "The Lord of the Rings: The Two Towers",
+      "director": "Peter Jackson"
+    },
+    {
+      "id": 3,
+      "title": "The Lord of the Rings: The Return of the King",
+      "director": "Peter Jackson"
+    }
+  ]
+}
