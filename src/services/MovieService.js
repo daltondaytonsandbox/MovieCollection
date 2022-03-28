@@ -10,8 +10,8 @@ const apiClient = axios.create({
 });
 
 export default {
-  getMovies() {
-    return apiClient.get("/movies");
+  getMovies(perPage, page) {
+    return apiClient.get("/movies?_limit=" + perPage + "&_page=" + page);
   },
   getMovie(id) {
     return apiClient.get("/movies/" + id);
